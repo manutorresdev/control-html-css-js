@@ -21,38 +21,46 @@
         dictum justo consequat a. Sed rutrum ex quis condimentum gravida
       </p>
     </header>
-    <section>
-      <h1 class="sect_titles">Título sección</h1>
-      <!-- <img src="" alt="Imagen de autor" id="profile_pic" /> -->
-      <!-- CON SCRIPT LÍNEA 26 -->
-      <img src="/picture.jpg" alt="Imagen de autor" id="profile_pic" />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolores
-        ullam, ducimus natus minima excepturi nisi repellendus non soluta fuga
-        ipsum dolorum quisquam eveniet. Cupiditate deserunt fugit unde ullam
-        omnis?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem saepe
-        inventore adipisci, maiores sint corrupti eos temporibus pariatur sit
-        esse, explicabo doloribus quam facilis laudantium aperiam sapiente
-        magnam, incidunt voluptatem?
-      </p>
-    </section>
-    <section>
-      <h1 class="sect_titles">Formulario</h1>
-      <form action="/index.html">
-        <legend>Name</legend>
-        <label for="name_input"></label>
-        <input type="text" name="name_input" id="name_input" />
-        <legend>Dirección</legend>
-        <label for="direction_input"></label>
-        <input type="text" name="direction_input" id="direction_input" />
-        <legend>Comentarios</legend>
-        <label for="comentarios_input"></label>
-        <input type="text" name="comentarios_input" id="comentarios_input" />
-        <button type="submit">Enviar</button>
-      </form>
-    </section>
+    <div class="sect_cont">
+      <section id="frst_sect">
+        <h1 class="sect_titles">Título sección</h1>
+        <div id="profile_pic"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          dolores dolorum amet temporibus beatae libero quis odio sunt? Alias
+          laboriosam temporibus voluptatum, et illo officiis. Provident dolor
+          iusto rem nesciunt delectus minus rerum odit mollitia officia modi
+          perferendis hic et architecto necessitatibus distinctio at voluptatem
+          in atque voluptatibus, tenetur omnis. Itaque fugiat, impedit
+          perferendis nam facere sit delectus aspernatur consequatur.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem saepe
+          inventore adipisci, maiores sint corrupti eos temporibus pariatur sit
+          esse, explicabo doloribus quam facilis laudantium aperiam sapiente
+          magnam, incidunt voluptatem?
+        </p>
+      </section>
+      <section id="scnd_sect">
+        <h1 class="sect_titles">Formulario</h1>
+        <form action="/index.html" id="form">
+          <legend>Nombre</legend>
+          <label for="name_input"></label>
+          <input required type="text" name="name_input" id="name_input" />
+          <legend>Dirección</legend>
+          <label for="direction_input"></label>
+          <input type="text" name="direction_input" id="direction_input" />
+          <legend>Comentarios</legend>
+          <textarea
+            maxlength="350"
+            cols="20"
+            rows="5"
+            form="form"
+            id="comentarios_input"
+          ></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </div>
   </body>
 </html>
