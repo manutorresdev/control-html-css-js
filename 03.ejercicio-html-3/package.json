@@ -1,0 +1,16 @@
+{
+  "name": "03.ejercicio-html-3",
+  "version": "1.0.0",
+  "description": "Edita el fichero `index.html` para que tenga muestre un formulario que tenga los sigiuentes campos:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync --server '03.EJERCICIO-HTML-3' --files '03.EJERCICIO-HTML-3'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.5"
+  }
+}
