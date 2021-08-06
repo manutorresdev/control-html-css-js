@@ -1,0 +1,17 @@
+{
+  "name": "01.ejercicio-html-1",
+  "version": "1.0.0",
+  "description": "Edita el fichero `index.html` para que tenga un HTML correspondiente a la imagen siguiente:",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.27.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync --server '01.EJERCICIO-HTML-1' --files '01.EJERCICIO-HTML-1'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
