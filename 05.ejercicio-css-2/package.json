@@ -1,0 +1,17 @@
+{
+  "name": "05.ejercicio-css-2",
+  "version": "1.0.0",
+  "description": "Recuerdas el formulario que tuviste que hacer en el Ejercicio 3 de HTML? Pues añadele un CSS para que se represente de esta forma:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync --server '05.EJERCICIO-CSS-2' --files '05.EJERCICIO-CSS-2'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.5"
+  },
+  "dependencies": {}
+}

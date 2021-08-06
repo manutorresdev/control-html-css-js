@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Ejercicio CSS 2</title>
+  </head>
+
+  <body>
+    <!--
+  EMMET ABREVIATION:
+  form>(fieldset>legend+label[for]+input[type][name])*12
+ -->
+    <form action="/index.html" method="GET">
+      <fieldset>
+        <legend>Ingresa tu nombre:</legend>
+        <label for="inp_name">Nombre</label>
+        <input
+          class="required"
+          type="text"
+          name="inp_name"
+          id="inp_name"
+          autofocus
+          required
+        />
+      </fieldset>
+      <fieldset>
+        <legend>Ingresa tu correo electrónico:</legend>
+        <label for="inp_email">Email</label>
+        <input
+          class="required"
+          type="email"
+          name="inp_email"
+          id="inp_email"
+          required
+        />
+      </fieldset>
+      <fieldset>
+        <legend>Ingresa tu página web:</legend>
+        <label for="inp_pers_web"></label>
+        <input
+          type="url"
+          name="inp_pers_web"
+          id="inp_pers_web"
+          placeholder="Escribe la URL de tu página web personal"
+        />
+      </fieldset>
+      <fieldset>
+        <legend>Ingresa la fecha:</legend>
+        <label for="inp_date"></label>
+        <input type="date" name="inp_date" id="inp_date" />
+      </fieldset>
+      <fieldset>
+        <legend>Hora:</legend>
+        <label for="inp_name_time"></label>
+        <input type="time" name="inp_name_time" id="inp_name_time" />
+      </fieldset>
+      <fieldset>
+        <legend>Fecha y hora:</legend>
+        <label for="inp_name_date_time"></label>
+        <input
+          type="datetime-local"
+          name="inp_name_date_time"
+          id="inp_name_date_time"
+        />
+      </fieldset>
+      <fieldset>
+        <legend>Mes:</legend>
+        <label for="inp_name_month"></label>
+        <input type="month" name="inp_name_month" id="inp_name_month" />
+      </fieldset>
+      <fieldset>
+        <legend>Semana:</legend>
+        <label for="inp_name_week"></label>
+        <input type="week" name="inp_name_week" id="inp_name_week" />
+      </fieldset>
+      <fieldset>
+        <legend>Número</legend>
+        <label for="inp_name_number"></label>
+        <input
+          type="number"
+          name="inp_name_number"
+          id="inp_name_number"
+          min="-10"
+          max="10"
+        />
+      </fieldset>
+      <fieldset>
+        <legend>Ingresa tu número de teléfono:</legend>
+        <label for="inp_name_tel_num"></label>
+        <input
+          type="tel"
+          name="inp_name_tel_num"
+          id="inp_name_tel_num"
+          value="627024051"
+          readonly
+        />
+      </fieldset>
+      <fieldset>
+        <legend>Término de búsqueda:</legend>
+        <label for="inp_name_search"></label>
+        <input type="search" name="inp_name_search" id="inp_name_search" />
+      </fieldset>
+      <fieldset>
+        <legend>Ingresa tu color favorito:</legend>
+        <label for="inp_name_color"></label>
+        <input type="color" name="inp_name_color" id="inp_name_color" />
+      </fieldset>
+      <button type="submit">ENVIAR</button>
+    </form>
+  </body>
+</html>
