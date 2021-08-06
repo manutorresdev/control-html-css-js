@@ -1,0 +1,28 @@
+/* CON SCRIPT */
+/* #profile_pic {
+  width: 100%;
+  max-width: 200px;
+} */
+
+* {
+  font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/*
+  ############
+  ## HEADER ##
+  ############
+*/
+
+header {
+  color: white;
+  background-color: black;
+  padding: 50px 50px 40px 30px;
+}
+
+header > p {
+  font-size: 0.9em;
+}
