@@ -1,0 +1,55 @@
+/* * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+} */
+
+/* Primera Lista */
+/* 1 */
+.lista > li:last-child {
+  background-color: rgb(0, 0, 255);
+}
+/* 2 */
+.lista > li:nth-child(odd) {
+  text-decoration: underline green solid;
+}
+/* 3 */
+.lista {
+  /* Le atribuyo list-style para que no aparezcan los list-icon 'manchando' el display */
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+/* 4 */
+.lista > li:nth-child(1):after {
+  content: "🤣";
+}
+.lista > li:nth-child(2):after {
+  content: "💉";
+}
+.lista > li:nth-child(3):after {
+  content: "😊";
+}
+.lista > li:nth-child(4):after {
+  content: "🐱‍🚀";
+}
+.lista > li:nth-child(5):after {
+  content: "🐱‍🏍";
+}
+.lista > li:nth-child(6):after {
+  content: "👀";
+}
+/* 5 */
+:lang(en) {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+/* Segunda Lista */
+/* 1 */
+#provincias > li {
+  list-style: upper-roman;
+}
+#provincias > li:nth-child(2) {
+  list-style: initial;
+}
