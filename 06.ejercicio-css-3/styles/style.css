@@ -12,6 +12,14 @@
   box-sizing: border-box;
 }
 
+body {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /*
   ############
   ## HEADER ##
@@ -166,6 +174,7 @@ button {
     align-items: center;
     justify-content: center;
     padding: 50px 50px 40px 50px;
+    min-width: 400px;
   }
   h1 {
     font-size: 1.7em;
@@ -182,6 +191,10 @@ button {
   ## SECTION 1 ##
   ###############
   */
+
+  section {
+    max-width: 400px;
+  }
 
   #frst_sect {
     display: flex;
