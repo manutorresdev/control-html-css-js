@@ -1,0 +1,16 @@
+{
+  "name": "07.ejercicio-css-4",
+  "version": "1.0.0",
+  "description": "Edita el fichero `index.html` para que muestre una web según este diseño, tienes que usar **Flexbox** y/o **CSS Grid** para maquetarlo:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync --server '07.ejercicio-css-4' --files '07.ejercicio-css-4'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.5"
+  }
+}
