@@ -91,7 +91,9 @@ section {
   grid-area: image;
   width: 200px;
   height: 220px;
+  /* Comment|uncomment for auto pic*/
   background-image: url(/picture.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -204,7 +206,6 @@ button {
   #profile_pic {
     width: 360px;
     height: 260px;
-    background-size: contain;
     background-position: center;
   }
   /*
