@@ -1,0 +1,18 @@
+{
+    "name": "08.ejercicio-js-1",
+    "version": "1.0.0",
+    "description": "Escribe una función que devuelva un array de usuarios. De cada usuario guardaremos el username, el nombre y apellido, el sexo, el país, el email y un enlace a su foto de perfil.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "browser-sync start --files 'www' --server 'www'"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^2.27.5",
+        "eslint": "^7.32.0",
+        "prettier": "^2.3.2"
+    }
+}

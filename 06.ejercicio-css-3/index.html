@@ -1,66 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ejercicio CSS 1</title>
-    <link rel="stylesheet" href="/styles/style.css" />
-    <!-- <script src="/js/index.js" defer></script> -->
-  </head>
-  <!-- EMMET ABREVIATION
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ejercicio CSS 1</title>
+  <link rel="stylesheet" href="/styles/style.css" />
+  <!-- <script src="/js/index.js" defer></script> -->
+</head>
+<!-- EMMET ABREVIATION
 (header>h1+h2+p)+(section>h1.sect_titles+img+p+p)+(section>h1.sect_titles+form>(legend+label[for]+input[type][name]#id)*3+button[type='submit'])
 -->
-  <body>
-    <header>
-      <h1>Título principal</h1>
-      <h2>Subtítulo</h2>
+
+<body>
+  <header>
+    <h1>Título principal</h1>
+    <h2>Subtítulo</h2>
+    <p>
+      Suspendisse ac arcu eget nulla efficitur maximus sit amet eu eros.
+      Aliquam fringilla id felis in fringilla. Donec facilisis purus, eu
+      dictum justo consequat a. Sed rutrum ex quis condimentum gravida
+    </p>
+  </header>
+  <div class="sect_cont">
+    <section id="frst_sect">
+      <h1 class="sect_titles">Título sección</h1>
+      <div id="profile_pic"></div>
       <p>
-        Suspendisse ac arcu eget nulla efficitur maximus sit amet eu eros.
-        Aliquam fringilla id felis in fringilla. Donec facilisis purus, eu
-        dictum justo consequat a. Sed rutrum ex quis condimentum gravida
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+        dolores dolorum amet temporibus beatae libero quis odio sunt? Alias
+        laboriosam temporibus voluptatum, et illo officiis. Provident dolor
+        iusto rem nesciunt delectus minus rerum odit mollitia officia modi
+        perferendis hic et architecto necessitatibus distinctio at voluptatem
+        in atque voluptatibus, tenetur omnis. Itaque fugiat, impedit
+        perferendis nam facere sit delectus aspernatur consequatur.
       </p>
-    </header>
-    <div class="sect_cont">
-      <section id="frst_sect">
-        <h1 class="sect_titles">Título sección</h1>
-        <div id="profile_pic"></div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-          dolores dolorum amet temporibus beatae libero quis odio sunt? Alias
-          laboriosam temporibus voluptatum, et illo officiis. Provident dolor
-          iusto rem nesciunt delectus minus rerum odit mollitia officia modi
-          perferendis hic et architecto necessitatibus distinctio at voluptatem
-          in atque voluptatibus, tenetur omnis. Itaque fugiat, impedit
-          perferendis nam facere sit delectus aspernatur consequatur.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem saepe
-          inventore adipisci, maiores sint corrupti eos temporibus pariatur sit
-          esse, explicabo doloribus quam facilis laudantium aperiam sapiente
-          magnam, incidunt voluptatem?
-        </p>
-      </section>
-      <section id="scnd_sect">
-        <h1 class="sect_titles">Formulario</h1>
-        <form action="/index.html" id="form">
-          <legend>Nombre</legend>
-          <label for="name_input"></label>
-          <input required type="text" name="name_input" id="name_input" />
-          <legend>Dirección</legend>
-          <label for="direction_input"></label>
-          <input type="text" name="direction_input" id="direction_input" />
-          <legend>Comentarios</legend>
-          <textarea
-            maxlength="350"
-            cols="20"
-            rows="5"
-            form="form"
-            id="comentarios_input"
-          ></textarea>
-          <button type="submit">Enviar</button>
-        </form>
-      </section>
-    </div>
-  </body>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem saepe
+        inventore adipisci, maiores sint corrupti eos temporibus pariatur sit
+        esse, explicabo doloribus quam facilis laudantium aperiam sapiente
+        magnam, incidunt voluptatem?
+      </p>
+    </section>
+    <section id="scnd_sect">
+      <h1 class="sect_titles">Formulario</h1>
+      <form action="/index.html" id="form">
+        <legend>Nombre</legend>
+        <label for="name_input"></label>
+        <input required type="text" name="name_input" id="name_input" />
+        <legend>Dirección</legend>
+        <label for="direction_input"></label>
+        <input type="text" name="direction_input" id="direction_input" />
+        <legend>Comentarios</legend>
+        <textarea maxlength="350" cols="20" rows="5" form="form" id="comentarios_input"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </div>
+</body>
+
 </html>
