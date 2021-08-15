@@ -25,7 +25,7 @@ const removeDup = (array) => {
         console.log(
             `El accumulator es: ${acc},
             Comprobamos que ${item} esté en el acc: ${acc.includes(item)}
-            Si el valor es false, pusheamos el item al acc.`
+            Si no está (false), pusheamos el item al acc.`
         );
         return acc.includes(item) ? acc : [...acc, item];
     }, []);
@@ -35,3 +35,5 @@ const removeDup = (array) => {
 };
 
 removeDup(names);
+
+removeDup(numbers);
