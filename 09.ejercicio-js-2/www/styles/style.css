@@ -21,26 +21,6 @@ body {
     background-position: center;
 }
 
-body.morning {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url('../img/morning.jpg');
-}
-
-body.afternoon {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url('../img/afternoon.jpg');
-}
-
-body.night {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url('../img/night.jpg');
-}
-
-body.hackaboss {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url('../img/hackaboss.jpg');
-}
-
 header {
     text-align: center;
     padding: 2rem;
