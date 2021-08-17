@@ -19,10 +19,10 @@ const names = [
 
 const numbers = [1, 2, 3, 4, 1, 2, 3, 5, 6, 7, 8, 9, 1, 2, 10, 1];
 
-// creating empty array for formatting array without duplicates
-let newArr = [];
 // creating function "remove Duplicates" with an array as property
 const removeDup = (array) => {
+    // creating empty array for formatting array without duplicates
+    let newArr = [];
     // reducing items from the array and checking if it has dups
     newArr = array.reduce((acc, item) => {
         // log to understand everything in this reduce
@@ -32,6 +32,10 @@ const removeDup = (array) => {
             Si no está (false), el item entra al acc.`
         );
         // asking if the accumulator has the exact item. If false, item gets pushed to acc. Else, it doesnt and reduce goes to next item
+        // if (!acc.includes(item)) {
+        //     newArr.push(item);
+        // }
+        // return newArr;
         return acc.includes(item) ? acc : [...acc, item];
     }, []);
     // using for of to iterate the new array and printing it on console

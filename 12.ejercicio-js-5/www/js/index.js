@@ -53,6 +53,7 @@ const getChars = async () => {
         const resp = await fetch(`${character}`),
             data2 = await resp.json();
         const { name, origin } = data2;
+        // adding origin because if a name is repeated but it's from different location, it's going to show
         charNames.push(`${name} ${origin.name}`);
     }
     // finish
