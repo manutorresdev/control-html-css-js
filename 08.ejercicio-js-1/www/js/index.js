@@ -44,7 +44,7 @@ const getUsers = async (numberOfUsers) => {
     console.log(users.length);
 };
 
-getUsers(5);
+getUsers(50);
 
 // const username = user.login.username;
 // const name_surname = `${user.name.first} ${user.name.last}`;

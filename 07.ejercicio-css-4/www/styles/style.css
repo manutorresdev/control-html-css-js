@@ -17,22 +17,27 @@
 }
 
 /*
-###########
-##  BODY ##
-###########
+#########################
+##  BODY and GRID-CONT ##
+#########################
 */
 
 body {
   font-family: sans-serif;
   background-color: var(--bg);
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.grid-div {
   display: grid;
   grid-template-columns: auto 280px auto;
   grid-template-rows: auto auto;
   align-items: center;
   column-gap: 30px;
-  max-width: 1440px;
 }
-
 /*
 ###########
 ## TITLE ##

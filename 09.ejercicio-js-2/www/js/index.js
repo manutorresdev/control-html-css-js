@@ -80,7 +80,7 @@ const button = document.querySelector('button'),
 
 let seconds = '00',
     minutes = '00',
-    hours = '00',
+    hours = '23',
     days = 0,
     timerCall,
     printCall;
@@ -134,5 +134,6 @@ button.addEventListener('click', (e) => {
         hours = `00`;
         minutes = `00`;
         seconds = `00`;
+        days = 0;
     });
 });
