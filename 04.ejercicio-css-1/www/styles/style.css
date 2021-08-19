@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
 } */
-@import 'normalize.css';
+@import "normalize.css";
 
 /* Primera Lista */
 /* 1 */
@@ -20,25 +20,26 @@
   list-style: none;
   display: flex;
   gap: 10px;
+  /* margin-right: 10px */
 }
 /* 4 */
 .lista > li:nth-child(1):after {
-  content: '🤣';
+  content: "🤣";
 }
 .lista > li:nth-child(2):after {
-  content: '💉';
+  content: "💉";
 }
 .lista > li:nth-child(3):after {
-  content: '😊';
+  content: "😊";
 }
 .lista > li:nth-child(4):after {
-  content: '🐱‍🚀';
+  content: "🐱‍🚀";
 }
 .lista > li:nth-child(5):after {
-  content: '🐱‍🏍';
+  content: "🐱‍🏍";
 }
 .lista > li:nth-child(6):after {
-  content: '👀';
+  content: "👀";
 }
 /* 5 */
 :lang(en) {

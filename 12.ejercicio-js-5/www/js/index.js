@@ -43,6 +43,7 @@ const getChars = async () => {
     // iterating through episodes to get all characterURL in one array
     for (const charactersURL of episodes) {
         for (let i = 0; i < charactersURL.length; i++) {
+            console.log(charactersURL);
             chars.push(charactersURL[i]);
         }
     }

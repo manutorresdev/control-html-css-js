@@ -47,3 +47,15 @@ const removeDup = (array) => {
 removeDup(names);
 // calling numbers array
 removeDup(numbers);
+
+// Gran idea 😒
+
+// const removeDup2 = (array) => {
+//     let newArr = [];
+//     newArr = array.filter((x, i) => {
+//         return array.indexOf(x) === i;
+//     });
+//     console.log(newArr);
+// };
+
+// removeDup2(names);

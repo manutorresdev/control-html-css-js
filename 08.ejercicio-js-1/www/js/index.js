@@ -44,8 +44,9 @@ const getUsers = async (numberOfUsers) => {
     console.log(users.length);
 };
 
+console.time('API Call');
 getUsers(50);
-
+console.timeEnd('API Call');
 // const username = user.login.username;
 // const name_surname = `${user.name.first} ${user.name.last}`;
 // const sex = user.gender;
