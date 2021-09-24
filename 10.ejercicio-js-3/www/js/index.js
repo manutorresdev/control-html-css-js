@@ -46,4 +46,4 @@ const toBinary = (number, type) => {
 };
 
 toBinary(550, 10);
-toBinary(111, 2);
+toBinary(101, 2);

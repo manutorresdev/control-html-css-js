@@ -1,6 +1,6 @@
-@import "normalize.css";
-@import "var.css";
-@import "fonts.css";
+@import 'normalize.css';
+@import 'var.css';
+@import 'fonts.css';
 * {
   margin: 0px;
   padding: 0px;
@@ -52,7 +52,7 @@ header {
 #title {
   color: var(--white);
   font-size: 8em;
-  animation: opacity 2s;
+  animation: opacity 1s;
 }
 
 /*
@@ -65,8 +65,9 @@ header {
   box-shadow: 0px 0px 10px 1px #2b2b2b;
   background-color: white;
   width: 300px;
-  height: 500px;
+  /* height: 500px; */
   display: flex;
+  overflow: hidden;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
@@ -74,19 +75,19 @@ header {
 
 #frst_sect {
   justify-self: end;
-  animation: opacity 2s ease-out 2s backwards;
+  animation: opacity 2s ease-out 1s backwards;
 }
 
 #scnd_sect {
   justify-self: center;
-  height: 600px;
+  /* height: 600px; */
   width: 280px;
-  animation: opacity 2s ease-out 3s backwards;
+  animation: opacity 2s ease-out 2s backwards;
 }
 
 #thrd_sect {
   justify-self: left;
-  animation: opacity 2s ease-out 4s backwards;
+  animation: opacity 2s ease-out 3s backwards;
 }
 
 .profile_img {
